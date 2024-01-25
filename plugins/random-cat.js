@@ -4,7 +4,7 @@ try {
 let res = await fetch('https://cataas.com/cat')
 let img = await res.buffer()
 let caption = `
-The-LoliBot-MD
+Optimus Kchero
 `.trim()
 await delay(5000)
 conn.sendFile(m.chat, img, 'cat.jpg', caption, m)
