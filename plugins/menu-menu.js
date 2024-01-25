@@ -1,3 +1,4 @@
+
 import fs from 'fs'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
@@ -326,7 +327,7 @@ console.log(e)
 }}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|menú|menucompleto|allmenu|allm\?)$/i
+handler.command = /^(menubot|menú|menucompleto|allmenu|allm\?)$/i
 //handler.register = true
 handler.exp = 50
 handler.fail = null
